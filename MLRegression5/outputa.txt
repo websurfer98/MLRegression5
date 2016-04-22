@@ -1,0 +1,67 @@
+Which of the following values of l1_penalty would not set w[1] zero, but would set w[2] to zero, if we were to take a coordinate gradient step in that coordinate? (Select all that apply)
+
+[1.0, 87939470.823251784, 80966698.66623944]
+
+False False
+False True
+False True
+True True
+True True
+
+
+
+1.4e8
+
+1.64e8 incorrect
+
+1.73e8
+
+1.9e8 x
+
+2.3e8
+
+
+
+1.4e8
+
+1.64e8
+
+1.73e8 incorrect
+
+1.9e8 x
+
+2.3e8
+
+
+Using all data and 2 features; sqft_living & bedrooms
+Rss:  1.63049247672e+15
+Weights:  [ 21624997.95951913  63157247.20788953         0.        ]
+
+features  = ['constant', 'bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'waterfront', 'view', 'condition', 'grade', 'sqft_above', 'sqft_basement', 'yr_built', 'yr_renovated']
+
+Evluating lasso with more features
+weights1e7:  [ 24429600.23440314         0.                 0.          48389174.77154893
+         0.                 0.           3317511.21492166
+   7329961.81171426         0.                 0.                 0.
+         0.                 0.                 0.        ]
+161.317457646
+weights1e8:  [ 71114625.71488702         0.                 0.                 0.
+         0.                 0.                 0.                 0.
+         0.                 0.                 0.                 0.
+         0.                 0.        ]
+weights1e4:  [ 78564738.34156749 -22097398.92430523  12791071.87278518
+  93808088.09281194  -2013172.75704954  -4219184.93265013
+   6482842.81753507   7127408.53480689   5001664.85469643
+  14327518.43714052 -15770959.152374    -5159591.22213149
+ -84495341.76843637   2824439.49703683]
+
+
+Using test data...
+Using weights1e7_normalized
+Rss:  2.7596207592e+14
+Using weights1e8_normalized
+Rss:  5.37166151497e+14
+Using weights1e4_normalized
+Rss:  2.28459958971e+14
+
+

@@ -1,0 +1,124 @@
+Using sales data...
+            features  estimatedCoefficients
+0           bedrooms               0.000000
+1    bedrooms_square               0.000000
+2          bathrooms               0.000000
+3        sqft_living             134.439314
+4   sqft_living_sqrt               0.000000
+5           sqft_lot               0.000000
+6      sqft_lot_sqrt               0.000000
+7             floors               0.000000
+8      floors_square               0.000000
+9         waterfront               0.000000
+10              view           24750.004586
+11         condition               0.000000
+12             grade           61749.103091
+13        sqft_above               0.000000
+14     sqft_basement               0.000000
+15          yr_built              -0.000000
+16      yr_renovated               0.000000
+
+
+Using training and validation data...
+L1 penalty list [  1.00000000e+01   3.16227766e+01   1.00000000e+02   3.16227766e+02
+   1.00000000e+03   3.16227766e+03   1.00000000e+04   3.16227766e+04
+   1.00000000e+05   3.16227766e+05   1.00000000e+06   3.16227766e+06
+   1.00000000e+07]
+Using an L1 penalty value of:  10.0
+Using an L1 penalty value of:  31.6227766017
+Using an L1 penalty value of:  100.0
+Using an L1 penalty value of:  316.227766017
+Using an L1 penalty value of:  1000.0
+Using an L1 penalty value of:  3162.27766017
+Using an L1 penalty value of:  10000.0
+Using an L1 penalty value of:  31622.7766017
+Using an L1 penalty value of:  100000.0
+Using an L1 penalty value of:  316227.766017
+Using an L1 penalty value of:  1000000.0
+Using an L1 penalty value of:  3162277.66017
+Using an L1 penalty value of:  10000000.0
+Best Rss =  3.982133273e+14
+Best penalty =  10.0
+
+
+Using test data...
+Rss:  9.84674025527e+13
+Number of non-zero coeffs for the best LM:  15
+L1 penalty list [    10.             14.38449888     20.69138081     29.76351442
+     42.81332399     61.58482111     88.58667904    127.42749857
+    183.29807108    263.66508987    379.26901907    545.55947812
+    784.75997035   1128.83789168   1623.77673919   2335.72146909
+   3359.81828628   4832.93023857   6951.92796178  10000.        ]
+Using an L1 penalty value of:  10.0
+Penalty=10.0, non-zero=15
+Using an L1 penalty value of:  14.3844988829
+Penalty=14.38449888287663, non-zero=15
+Using an L1 penalty value of:  20.6913808111
+Penalty=20.6913808111479, non-zero=15
+Using an L1 penalty value of:  29.7635144163
+Penalty=29.76351441631318, non-zero=15
+Using an L1 penalty value of:  42.8133239872
+Penalty=42.81332398719393, non-zero=13
+Using an L1 penalty value of:  61.5848211066
+Penalty=61.58482110660264, non-zero=12
+Using an L1 penalty value of:  88.586679041
+Penalty=88.58667904100822, non-zero=11
+Using an L1 penalty value of:  127.42749857
+Penalty=127.42749857031335, non-zero=10
+Using an L1 penalty value of:  183.298071083
+Penalty=183.29807108324357, non-zero=7
+Using an L1 penalty value of:  263.665089873
+Penalty=263.6650898730358, non-zero=6
+Using an L1 penalty value of:  379.269019073
+Penalty=379.26901907322497, non-zero=6
+Using an L1 penalty value of:  545.559478117
+Penalty=545.5594781168514, non-zero=6
+Using an L1 penalty value of:  784.759970351
+Penalty=784.7599703514607, non-zero=5
+Using an L1 penalty value of:  1128.83789168
+Penalty=1128.8378916846884, non-zero=3
+Using an L1 penalty value of:  1623.77673919
+Penalty=1623.776739188721, non-zero=3
+Using an L1 penalty value of:  2335.72146909
+Penalty=2335.7214690901214, non-zero=2
+Using an L1 penalty value of:  3359.81828628
+Penalty=3359.818286283781, non-zero=1
+Using an L1 penalty value of:  4832.93023857
+Penalty=4832.930238571752, non-zero=1
+Using an L1 penalty value of:  6951.92796178
+Penalty=6951.927961775606, non-zero=1
+Using an L1 penalty value of:  10000.0
+Penalty=10000.0, non-zero=1
+The penalty limts are 127.42749857031335, 263.6650898730358
+L1 penalty list [ 127.42749857  134.59789811  141.76829765  148.9386972   156.10909674
+  163.27949628  170.44989582  177.62029537  184.79069491  191.96109445
+  199.13149399  206.30189354  213.47229308  220.64269262  227.81309216
+  234.9834917   242.15389125  249.32429079  256.49469033  263.66508987]
+Using an L1 penalty value of:  127.42749857
+Using an L1 penalty value of:  134.597898113
+Using an L1 penalty value of:  141.768297655
+Using an L1 penalty value of:  148.938697197
+Using an L1 penalty value of:  156.109096739
+Using an L1 penalty value of:  163.279496282
+Using an L1 penalty value of:  170.449895824
+Using an L1 penalty value of:  177.620295366
+Using an L1 penalty value of:  184.790694908
+Using an L1 penalty value of:  191.961094451
+Using an L1 penalty value of:  199.131493993
+Using an L1 penalty value of:  206.301893535
+Using an L1 penalty value of:  213.472293077
+Using an L1 penalty value of:  220.64269262
+Using an L1 penalty value of:  227.813092162
+Using an L1 penalty value of:  234.983491704
+Using an L1 penalty value of:  242.153891246
+Using an L1 penalty value of:  249.324290789
+Using an L1 penalty value of:  256.494690331
+Using an L1 penalty value of:  263.665089873
+Best Rss =  4.40037365263e+14
+Best penalty =  156.109096739
+Best NZ = 7
+Coeffs for bestLM =  [ -0.00000000e+00  -0.00000000e+00   1.06108903e+04   1.63380252e+02
+   0.00000000e+00  -0.00000000e+00  -0.00000000e+00   0.00000000e+00
+   0.00000000e+00   5.06451687e+05   4.19600436e+04   0.00000000e+00
+   1.16253554e+05   0.00000000e+00   0.00000000e+00  -2.61223488e+03
+   0.00000000e+00]
